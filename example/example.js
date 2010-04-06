@@ -31,10 +31,7 @@ dust.Document(
 	}
 ) 
 
-dust.comments.add(3, {name: "Pedro"});   
-dust.comments.add({name: "Joao"});   
+dust.posts.add(1, {name: "Rob"});   
 
-dust.comments.remove(2, {name: "Pedro"});
-
-sys.p(dust.comments.find());
+sys.p(dust.posts.find());
 

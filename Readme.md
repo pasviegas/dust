@@ -43,7 +43,17 @@ Thats how you add 3 documents
 	
 You can default any attribute
 
-	dust.posts.add(1, {name: 'Rob'});	
+	dust.posts.add(1, {name: 'Rob'});
+	
+Thats the result
+
+	[ { title: 'In consequatur aut'
+  	  , name: 'Rob'
+  	  , email: 'gage_pagac@ratke.us'
+  	  , post: 'Ut consequatur aut perferendis sit voluptatem accusantium dolorem. Itaque consequatur aut perferendis. Fugit consequatur aut perferendis. Consequatur consequatur aut perferendis. Voluptatum consequatur aut perferendis sit. Tempora consequatur aut perferendis sit. Perferendis consequatur aut alias sit voluptatem. Nobis consequatur aut 			perferendis sit voluptatem accusantium. Voluptatem consequatur aut perferendis. Et consequatur aut perferendis.'
+  		}
+	]
+		
 	
 Same goes to remove, the first removes any 3 documents, the second, 1 document named Rob and the third removes all documents with name John 	
 	
